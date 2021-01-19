@@ -20,7 +20,49 @@ path = "Source/Server.rs"
 tokio = { version = "1.0.2", features = ["full"] }
 mini-redis = "0.4"
 bytes = "1.0.1"
+crossbeam = "0.7"
+futures = "0.3"
 
 [[example]]
 name="Hello"
 path = "Examples/Hello.rs"
+
+[[example]]
+name="ReadPart"
+path = "Tutorial/ReadPart.rs"
+
+[[example]]
+name="ReadFile"
+path = "Tutorial/ReadFile.rs"
+
+[[example]]
+name="WritePart"
+path = "Tutorial/WritePart.rs"
+
+[[example]]
+name="WriteFile"
+path = "Tutorial/WriteFile.rs"
+
+[[example]]
+name="CreateFile"
+path = "Tutorial/CreateFile.rs"
+
+[[example]]
+name="Echo"
+path = "Tutorial/Echo.rs"
+
+[[example]]
+name="EchoCopy"
+path = "Tutorial/EchoCopy.rs"
+
+[[example]]
+name="Future"
+path = "Tutorial/Future.rs"
+
+[[example]]
+name="MiniTokio"
+path = "Tutorial/MiniTokio.rs"
+
+[[example]]
+name="Waker"
+path = "Tutorial/Waker.rs"
