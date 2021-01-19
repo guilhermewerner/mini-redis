@@ -19,6 +19,7 @@ path = "Source/Server.rs"
 [dependencies]
 tokio = { version = "1.0.2", features = ["full"] }
 mini-redis = "0.4"
+bytes = "1.0.1"
 
 [[example]]
 name="Hello"

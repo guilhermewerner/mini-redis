@@ -1,3 +1,5 @@
+#![allow(non_snake_case)]
+
 use mini_redis::{client, Result};
 
 #[tokio::main]
