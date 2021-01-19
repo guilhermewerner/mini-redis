@@ -1,3 +1,3 @@
 # MiniRedis
 
-Created for learning Rust Async Programming with Tokio crate. 
+Created for learn Rust Async Programming with Tokio crate. 
