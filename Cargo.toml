@@ -1,0 +1,25 @@
+[package]
+name = "MiniRedis"
+version = "0.0.1"
+description = "Mini Redis"
+repository = "https://github.com/GuilhermeWerner/MiniRedis"
+authors = ["GuilhermeWerner <guilhermeqwerner@gmail.com>"]
+license = "MIT"
+edition = "2018"
+publish = false
+
+[[bin]]
+name="Client"
+path = "Source/Client.rs"
+
+[[bin]]
+name="Server"
+path = "Source/Server.rs"
+
+[dependencies]
+tokio = { version = "1.0.2", features = ["full"] }
+mini-redis = "0.4"
+
+[[example]]
+name="Hello"
+path = "Examples/Hello.rs"
